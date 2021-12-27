@@ -950,8 +950,26 @@
 
     /* Footer */
     .footer {
-        padding: 0;
+        padding: 48px 32px 32px;
         display: block;
+    }
+
+    .footer-contact-heading {
+        margin-top: 32px;
+    }
+
+    .footer-contact-container {
+        margin: 0;
+    }
+
+    .footer-lower-content {
+        flex-direction: column;
+        padding: 32px;
+        align-items: center;
+    }
+
+    .footer::before {
+        margin: 0 32px;
     }
 
 }
